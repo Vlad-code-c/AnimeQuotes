@@ -1,0 +1,75 @@
+.quote h2::first-letter {
+    font-size: 45px;
+}
+
+.quote h2 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.anime::before {
+    content: "from \"";
+}
+
+.anime::after {
+    content: "\"";
+}
+
+.character::before {
+    content: "by ";
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+
+    font-size: 20px;
+}
+
+.anime, .character {
+    opacity: 60%;
+}
+
+p {
+    text-align: end;
+}
+
+/* 
+.quote {
+    padding-top: 10%;
+} */
+
+.vertical-center {
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body {
+    /* Dark theme */
+    background-color: #55286f;
+    /* background-color: #384e6b; */
+    /* background-color: #435772; */
+    /* background-color: #1e503e; */
+    /* background-color: #58782b; */
+    /* background-color: #1a3a3d; */
+    /* background-color: #214a4f; */
+    /* background-color: #58355e; */
+    /* background-color: #315263; */
+    /* background-color: #1e7175; */
+    /* background-color: #38686a; */
+    color: white;
+    
+    /* Light theme */
+    /*background-color: #c8b6ff;*/
+    /* background-color: #ffa69e; */
+    /* background-color: #84dcc6; */
+    /* background-color: #cdb4db; */
+    /* background-color: #a2d2ff; */
+    /* background-color: #ffd6a5; */
+    /* background-color: #fdffb6; */
+    /* background-color: #caffbf; */
+    /* background-color: #a0c4ff; */
+}
