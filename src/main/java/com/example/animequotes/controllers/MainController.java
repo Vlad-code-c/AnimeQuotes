@@ -1,6 +1,5 @@
 package com.example.animequotes.controllers;
 
-import com.example.animequotes.PageProperties;
 import com.example.animequotes.api.QuoteAPI;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
